@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delpak Auto Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- BARRA SUPERIOR DE CONTATO -->
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <span>📞 +55 11 4613-2727</span>
+            <span>✉️ delpak@delpak.com.br</span>
+        </div>
+    </div>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+        <div class="header-container">
+            
+            <!-- BOTÃO DE 3 BARRINHAS NO LADO ESQUERDO -->
+            <div class="menu-wrapper">
+                <button class="menu-btn" onclick="toggleMenu()" aria-label="Abrir Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- MENU LATERAL SUSPENSO -->
+                <div id="dropdown-menu" class="menu-content">
+                    <a href="../index.html" onclick="toggleMenu()" class="btn-item">Cadastro</a>
+                    <a href="#sobre" onclick="toggleMenu()" class="btn-item">Sobre nós</a>
+                    <a href="#embalagens" onclick="toggleMenu()" class="btn-item">Embalagens para alimentos</a>
+                    <a href="#seladora" onclick="toggleMenu()" class="btn-item">Seladora de bandejas</a>
+                    <a href="#termos" onclick="toggleMenu()" class="btn-item">Termos de serviço</a>
+                    <a href="#contato" onclick="toggleMenu()" class="btn-item">Contato</a>
+                </div>
+            </div>
+
+            <!-- LOGO DA DELPAK -->
+            <div class="logo">
+                <img src="../imagem.img/WEBSITE_DELPAK_LOGO_DELPAK_HOR.webp" alt="Logo Delpak">
+            </div>
+
+            <!-- NAVEGAÇÃO HORIZONTAL DENTRO DO HEADER -->
+            <nav class="nav-links">
+                <a href="../index.html">CADASTRO</a>
+                <a href="#sobre">SOBRE</a>
+                <a href="#embalagens">EMBALAGENS</a>
+                <a href="#contato">CONTATO</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- TÍTULO PRINCIPAL (TEMA ESCURO/VERMELHO) -->
+    <div class="titulo-principal">
+        Bem-vindo ao site de auto cadastro da Delpak
+    </div>
+
+    <!-- HERO / BANNER PRINCIPAL -->
+    <section id="cadastro" class="hero">
+        <div class="hero-image-container">
+            <img src="../imagem.img/fundo.jpg" alt="Banner Delpak" class="hero-bg">
+        </div>
+        <div class="hero-card">
+            <h2>EMBALAGENS QUE PROTEGEM E VALORIZAM A REFEIÇÃO</h2>
+            <p>Soluções em embalagens plásticas com tecnologia, qualidade e design para food service.</p>
+            <a href="#embalagens" class="btn-primary">Conheça nossas embalagens</a>
+        </div>
+    </section>
+
+    <!-- SEÇÃO EMBALAGENS PARA ALIMENTOS -->
+    <section id="embalagens" class="section dark-section">
+        <div class="container">
+            <h2>EMBALAGENS PARA ALIMENTOS</h2>
+            <p>Nós temos uma ampla linha de embalagens plásticas, totalmente seguras e adequadas para garantir que a refeição chegue na mesa do seu cliente com o mesmo frescor que saiu da cozinha. Todas as nossas embalagens são livres de Bisfenol (BPA Free).</p>
+            
+            <h3 class="subtitle">LOCALIZE A MELHOR EMBALAGEM PARA O SEU SEGMENTO:</h3>
+            
+            <div class="grid-categories">
+                <div class="card">❄️<span>CONGELADOS</span></div>
+                <div class="card">🏥<span>HOSPITAIS</span></div>
+                <div class="card">🍽️<span>MARMITEX</span></div>
+                <div class="card">🍞<span>PANIFICAÇÃO</span></div>
+                <div class="card">🛵<span>RESTAURANTE/DELIVERY</span></div>
+                <div class="card">🍗<span>ROTISSERIAS</span></div>
+                <div class="card">🛒<span>SUPERMERCADOS</span></div>
+                <div class="card highlight">📦<span>VER TODOS</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE NÓS -->
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2>SOBRE A DELPAK</h2>
+            <p>A Delpak está no mercado brasileiro de embalagens desde 1993 e é reconhecida como fornecedora de produtos que são sinônimo de qualidade, design e soluções para o mercado de Food Service.</p>
+            <p>Somos especializados em embalagens plásticas para alimentos, fabricadas em Polipropileno (PP), e fomos os pioneiros em oferecer o sistema de selagem que permite que todas as embalagens sejam seladas com filme transparente.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SELADORA DE BANDEJAS -->
+    <section id="seladora" class="section dark-section">
+        <div class="container">
+            <h2>SELADORA DE BANDEJAS</h2>
+            <p>Conheça nossas máquinas seladoras de alta eficiência desenvolvidas para manter o alimento inviolável e seguro durante todo o transporte.</p>
+        </div>
+    </section>
+
+    <!-- SEÇÃO TERMOS DE SERVIÇO -->
+    <section id="termos" class="section">
+        <div class="container">
+            <h2>TERMOS DE SERVIÇO</h2>
+            <p>Ao utilizar o sistema de auto cadastro da Delpak, você concorda com nossas diretrizes de privacidade, tratamento de dados e termos de fornecimento corporativo.</p>
+        </div>
+    </section>
+
+    <!-- RODAPÉ & CONTATO -->
+    <footer id="contato" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="../imagem.img/WEBSITE_DELPAK_LOGO_DELPAK_HOR.webp" alt="Delpak Logo" class="footer-logo">
+            </div>
+            <div class="footer-col">
+                <h4>INSTITUCIONAL</h4>
+                <ul>
+                    <li><a href="#cadastro">Cadastro</a></li>
+                    <li><a href="#sobre">Sobre a Delpak</a></li>
+                    <li><a href="#embalagens">Embalagens para alimentos</a></li>
+                    <li><a href="#seladora">Seladora de bandejas</a></li>
+                    <li><a href="#termos">Termos de serviço</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>ENDEREÇO</h4>
+                <p>Rod. Raposo Tavares, 25.345 (Km 25,3)</p>
+                <p>Granja Viana - Cotia - São Paulo</p>
+                <p><strong>+55 11 4613-2727</strong></p>
+                <p>delpak@delpak.com.br</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
